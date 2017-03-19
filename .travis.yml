@@ -13,3 +13,4 @@ branches:
 
 sudo: false
 
+script: dub -ctest --compiler=${DC}
