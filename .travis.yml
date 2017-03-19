@@ -1,0 +1,15 @@
+language: d
+
+os:
+  - linux
+
+d:
+  - dmd
+  - ldc
+
+branches:
+  only:
+    - master
+
+sudo: false
+
