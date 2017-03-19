@@ -1,0 +1,5 @@
+logger {
+    appender "console"
+    level "debug"
+}
+

@@ -1,0 +1,18 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"d-unit": "0.8.1",
+		"dyaml-dlang-tour": "0.6.0",
+		"eventcore": "0.8.8",
+		"libasync": "0.8.3",
+		"libinputvisitor": "1.2.2",
+		"memutils": "0.4.9",
+		"msgpack-d": "1.0.0-beta.6",
+		"proped": "0.0.3-beta.1",
+		"sdlang-d": "0.10.1",
+		"taggedalgebraic": "0.10.5",
+		"tinyendian": "0.1.2",
+		"unit-threaded": "0.6.36",
+		"vibe-core": "1.0.0-beta.4"
+	}
+}

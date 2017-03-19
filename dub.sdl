@@ -1,0 +1,27 @@
+name "tarantool-d"
+description "Dlang driver for Tarantool"
+authors "Oleg Lelenkov"
+copyright "Copyright © 2017, Oleg Lelenkov"
+license "MIT"
+
+dependency "proped" version="~>0.0.3-beta.1"
+dependency "vibe-core" version="~>1.0.0-beta.2"
+dependency "msgpack-d" version="~>1.0.0-beta.6"
+
+
+configuration "dev" {
+    targetPath "out/dev"
+    targetType "executable"
+}
+
+
+configuration "test" {
+    targetPath "out/test"
+    targetType "executable"
+
+    dependency "d-unit" version="~>0.8.1"
+
+    versions "UnitTestVersion"
+    sourcePaths "test"
+    excludedSourceFiles "source/app.d"
+}
